@@ -1,6 +1,6 @@
 img {
   width: 100%;
-  max-width: 250px;
+  max-width: 500px;
 }
 .center {
   text-align: center;
@@ -9,7 +9,4 @@ img.center {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
-}
-p {
-  text-indent: 30px;
 }
