@@ -5,15 +5,20 @@
     or use the contact form below!
   </h5>
   <div class="row">
-    <form action="https://formspree.io/f/xyyvyklv" method="POST">
+    <form
+      class="col-lg-12 center"
+      action="https://formspree.io/f/xyyvyklv"
+      method="POST"
+    >
       <div class="col-lg-12">
-        <label style="color: white">
+        <label style="color: black">
           Name<br />
           <input
             placeholder="Name"
             type="text"
             name="name"
             style="
+              min-width: 270px;
               background-color: transparent;
               border: 2px solid black;
               border-radius: 15px;
@@ -24,13 +29,14 @@
         </label>
       </div>
       <div class="col-lg-12">
-        <label style="color: white">
+        <label style="color: black">
           Email<br />
           <input
             placeholder="Email"
             type="email"
             name="email"
             style="
+              min-width: 270px;
               background-color: transparent;
               border: 2px solid black;
               border-radius: 15px;
@@ -41,14 +47,15 @@
         </label>
       </div>
       <div class="col-lg-12">
-        <label style="color: white">
+        <label style="color: black">
           Message<br />
           <textarea
             placeholder="Message"
             name="message"
             style="
+              min-width: 270px;
+              min-height: 180px;
               resize: vertical;
-              min-height: 200px;
               background-color: transparent;
               border: 2px solid black;
               border-radius: 15px;
@@ -57,14 +64,17 @@
           ></textarea>
         </label>
       </div>
-
       <button
+        class="btn btn-danger"
+        type="reset"
+        style="border: 2px solid; border-radius: 15px; width: 120px"
+      >
+        Reset
+      </button>
+      <button
+        class="btn btn-primary"
         type="submit"
-        style="
-          background-color: transparent;
-          border: 2px solid;
-          border-radius: 15px;
-        "
+        style="border: 2px solid; border-radius: 15px; width: 120px"
       >
         Send
       </button>
