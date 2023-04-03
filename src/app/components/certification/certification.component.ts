@@ -14,25 +14,23 @@ export class CertificationComponent {
       year: '2019',
       from: 'Microsoft',
       description:
-        'In 2019, I obtained a Microsoft Office Specialist certification. This certification certifies my Word, Powerpoint, and Excel skills.',
+        'This certification certifies my Word, Powerpoint, and Excel skills. I am proficient in all three software, and I can utilize them to accomplish tasks without any issues. ',
     },
     {
       id: 2,
       year: '2022',
       from: 'US Federal Aviation Administration',
-      title:
-        'Federal Aviation Administration - Unmanned Aircraft General Remote Pilot Certification',
+      title: 'Unmanned Aircraft General Remote Pilot Certification',
       description:
-        'I have passed the Part 107 test, and I am a certified small unmanned aircraft pilot. In other words, I am certified to fly small drones within the United States.',
+        'I have passed the Part 107 test, and I am a certified small unmanned aircraft pilot. In other words, I am certified to fly small drones within the border of the United States.',
     },
     {
       id: 3,
-      from: 'Eeastern Kentucky University',
+      from: 'College Reading & Learning Association',
       year: '2022',
-      title:
-        'College Reading & Learning Association - International Tutor Training Program Certification',
+      title: 'International Tutor Training Program Certification',
       description:
-        'I have obtained the tutor certification by working as a Lead Guru. I have completed multiple training and tutored more than 100 hours to get the certification.',
+        'Working as a lead tutor at the Student Success center,  I have completed multiple training and tutored students in math and computer science for more than 100 hours. Based on these experiences, I earned this certification. ',
     },
   ];
 }

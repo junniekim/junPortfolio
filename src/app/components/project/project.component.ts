@@ -12,27 +12,41 @@ export class ProjectComponent {
       id: 1,
       title: "Sijun Kim's E-Portfolio",
       picture: '/assets/img/websiteShowCase.PNG',
-      tools: 'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code',
+      tools:
+        'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code, GitHub',
+
+      duration: '13 Hours',
       description:
-        'This website is the very first program that I have written outside of my school projects. The purpose of this project is to create an online portfolio, so I have a place to virtually keep track of my progress. It took me 6-7 days to complete the website, and 2-3 days to fill out the information. I learned and applied basic HTML, CSS, and Tpyescript. Also, I got more familiar with Visual Studio, and I can install necessary extensions as needed. I also had a chance to implement a third-party service, Formspree, on my Contact Me page. This website is currently being updated as I earn new achievements.',
+        'The purpose of this project is to create an online portfolio, so I have a place to virtually keep track of my progress and achievements in my career. My resume and contacts can be found on this web application. Completing this project, I got a lot more comfortable with creating basic Angular applications, and I can install necessary extensions as needed on Visual Studio. I also had a chance to implement a third-party service on the “Contact Me” page. This website is actively being updated everytime I earn a new achievement. ',
     },
     {
       id: 2,
+      duration: '16 Hours',
       tools:
-        'Public API, HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code',
+        'Public API, HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code, GitHub',
       title: 'PokeAPI Project',
       picture: '/assets/img/pokemonShowCase.PNG',
       description:
-        'This project can be found on my Github, named "PokeApiFinal". The purpose of this project is to learn and demonstrate using public API. The project took about 12 hours. I spent the first hour designing my website, about 2-3 hours learning about implementation, and about 8 hours of coding and debugging. I used typescript, HTML, CSS, angular, and VScode. I have developed much better JavaScript skills because the public API that I used required me to go into multiple layers of URLs, so I had to learn how to format variables and data into a required format. I also got more familiar with angular with its basic concepts such as building components and using directives.',
+        'The purpose of this project is to learn how to connect public API with my angular program. I developed a better understanding of what and why to use APIs, and I was able to apply the new knowledge to create this web application. I got a lot more confident with formatting an object in a way that the API wants, and retrieving wanted data using API with Typescript.  ',
     },
     {
       id: 3,
+      duration: '17 Hours',
       tools:
-        'Reactive/Template Form, HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code',
+        'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code, GitHub',
       title: 'Pizza Ordering Project',
       picture: '/assets/img/pizzaShowCase.PNG',
       description:
-        'This project can be found on my Github, named "pizzaOrderWithAngular". The purpose of this project is to learn and demonstrate using different types of forms in Angular. This is an ongoing project, and I hope to get some good practice with Angular\'s reactive form as well as template form.',
+        'The purpose of this project is to get more familiar with reactive forms and template forms in Angular. I learned and understood the difference between the two, and I applied what I learned into practice. I also had a chance to write directives to check the required formats in user input such as email address. ',
+    },
+    {
+      id: 4,
+      duration: '21 Hours',
+      tools: 'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio, GitHub',
+      title: 'Web Application at Work I ',
+      picture: '/assets/img/work1.PNG',
+      description:
+        'This was the first prod-level web application that I made at work. Unlike my personal projects, this project had to be at the professional level, so I conducted lots of testing on it. I also had a chance to collaborate with backend developers: I got necessary end points from them and designed the web page with the provided endpoints. I also had a chance to use some angular components that my coworkers wrote. This was such a valuable experience as I learned how to better communicate and collaborate with team members to meet the goal.',
     },
   ];
 }

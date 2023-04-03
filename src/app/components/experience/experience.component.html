@@ -1,5 +1,5 @@
 <div class="container" stlye="justify-content: center">
-  <h1 class="center">Experience</h1>
+  <h1 class="center">Experiences</h1>
   <div *ngFor="let x of experiences">
     <hr />
     <div class="row"></div>
@@ -8,8 +8,8 @@
       <img class="center" src="{{ x.picture }}" alt="ALT" />
     </div>
     <div class="row">
-      <div class="col-lg-6 center">Tools: {{ x.duration }}</div>
       <div class="col-lg-6 center">{{ x.location }}</div>
+      <div class="col-lg-6 center">{{ x.duration }}</div>
     </div>
     <div class="col-lg-12 center">{{ x.description }}</div>
   </div>

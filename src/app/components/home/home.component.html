@@ -4,65 +4,121 @@
     What can be found on this website?
   </h4>
   <br />
-  <div class="row" style="text-align: center">
+  <div
+    [routerLinkActive]="['link-active']"
+    class="row"
+    style="text-align: center"
+  >
     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-      <img src="/assets/img/bio.png" id="bioImage" alt="bioImage" />
+      <a href="javascript:void(0)">
+        <img
+          src="/assets/img/bio.png"
+          id="bioImage"
+          [routerLink]="['bio']"
+          alt="bioImage"
+        />
+      </a>
       <br />
       About me
     </div>
 
     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-      <img src="/assets/img/resume.png" id="resumeImage" alt="resumeImage" />
+      <a href="javascript:void(0)"
+        ><img
+          src="/assets/img/resume.png"
+          [routerLink]="['resume']"
+          id="resumeImage"
+          alt="resumeImage"
+      /></a>
       <br />
       Resume
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-      <img
-        src="/assets/img/experience.png"
-        id="experienceImage"
-        alt="experienceImage"
-      />
-      <br />Experience
+      <a href="javascript:void(0)">
+        <img
+          [routerLink]="['experience']"
+          src="/assets/img/experience.png"
+          id="experienceImage"
+          alt="experienceImage"
+        />
+      </a>
+      <br />Experiences
     </div>
 
     <div class="col-lg-3 col-md-3 col-sm-3 col-6">
-      <img src="/assets/img/award.png" id="awardImage" alt="awardImage" />
+      <a href="javascript:void(0)">
+        <img
+          src="/assets/img/award.png"
+          id="awardImage"
+          [routerLink]="['award']"
+          alt="awardImage"
+        />
+      </a>
       <br />
-      Award
+      Awards
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-6">
-      <img
-        src="/assets/img/certificate.png"
-        id="certificateImage"
-        alt="certificateImage"
-      />
+      <a href="javascript:void(0)"
+        ><img
+          [routerLink]="['certification']"
+          src="/assets/img/certificate.png"
+          id="certificateImage"
+          alt="certificateImage"
+      /></a>
+
       <br />
-      Certification
+      Certifications
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-6">
-      <img src="/assets/img/project.png" id="projectImage" alt="projectImage" />
+      <a href="javascript:void(0)">
+        <img
+          src="/assets/img/project.png"
+          id="projectImage"
+          [routerLink]="['project']"
+          alt="projectImage"
+      /></a>
+
       <br />
-      Project
+      Projects
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-6">
-      <img src="/assets/img/contact.png" id="contactImage" alt="contactImage" />
+      <a href="javascript:void(0)"
+        ><img
+          [routerLink]="['contact']"
+          src="/assets/img/contact.png"
+          id="contactImage"
+          alt="contactImage"
+      /></a>
+
       <br />
-      Contact
+      Contacts
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-      <img
-        src="/assets/img/linkedIn.png"
-        id="linkedInImage"
-        alt="linkedInImage"
-      />
+      <a
+        href="https://www.linkedin.com/in/sijun-kim-4b7997258/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="/assets/img/linkedIn.png"
+          id="linkedInImage"
+          alt="linkedInImage"
+        />
+      </a>
       <br />
       LinkedIn
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-      <img src="/assets/img/git.png" id="gitImage" alt="gitImage" />
+      <a
+        href="https://github.com/junniekim"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/assets/img/git.png" id="gitImage" alt="gitImage" />
+      </a>
       <br />
-      Github
+      GitHub
     </div>
   </div>
 </div>
