@@ -58,7 +58,7 @@ export class ExperienceComponent {
       id: 7,
       title: 'Educational Technology Assistant',
       duration: 'Summer 2021',
-      picture: '/assets/img/moshelp.jpg',
+      picture: '/assets/img/moshelp.PNG',
       location: 'Eastern Kentucky University',
       description:
         'I was embedded into a summer program that is designed to help those who want to get a head start on their freshman year. My duty was to ensure that those students have the necessary software installed on their computers and ensure that students know how to navigate educational technologies such as Blackboard.',
