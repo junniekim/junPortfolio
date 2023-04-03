@@ -1,18 +1,30 @@
 <div class="container">
-  <h1 class="center">Projects</h1>
-  <h6 class="center">All can be found in my GitHub Page</h6>
+  <h1 class="center" style="font-family: cambria">PROJECTS</h1>
+  <h5 class="center" style="font-family: cambria">
+    Most can be found in my GitHub page
+  </h5>
   <div *ngFor="let x of projects">
     <hr />
-    <h3 class="col-lg-12 center">{{ x.title }}</h3>
+    <h2 class="col-lg-12 center" style="font-family: cambria">{{ x.title }}</h2>
     <div>
       <img class="center" src="{{ x.picture }}" alt="ALT" />
     </div>
 
-    <div class="col-lg-12 center">
-      <h6 class="center">Project Summary</h6>
-      {{ x.description }}
+    <div class="col-lg-12 center" style="font-family: cambria">
+      <h4 class="center" style="font-weight: bold">Project Summary</h4>
+      <div style="font-size: 1.25em">{{ x.description }}</div>
     </div>
-    <div class="col-lg-12 center">Duration: {{ x.duration }}</div>
-    <div class="col-lg-12 center">Tools: {{ x.tools }}</div>
+    <div
+      class="col-lg-12 center"
+      style="font-size: 1.25em; font-family: cambria"
+    >
+      Duration: {{ x.duration }}
+    </div>
+    <div
+      class="col-lg-12 center"
+      style="font-size: 1.25em; font-family: cambria"
+    >
+      Tools: {{ x.tools }}
+    </div>
   </div>
 </div>

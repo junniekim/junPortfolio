@@ -1,16 +1,25 @@
 <div class="container" stlye="justify-content: center">
-  <h1 class="center">Experiences</h1>
+  <h1 class="center" style="font-family: cambria">EXPERIENCES</h1>
   <div *ngFor="let x of experiences">
     <hr />
     <div class="row"></div>
-    <div class="col-lg-12 center">{{ x.title }}</div>
+    <h2 class="col-lg-12 center" style="font-family: cambria">{{ x.title }}</h2>
     <div class="col-lg-12">
       <img class="center" src="{{ x.picture }}" alt="ALT" />
     </div>
     <div class="row">
-      <div class="col-lg-6 center">{{ x.location }}</div>
-      <div class="col-lg-6 center">{{ x.duration }}</div>
+      <h4 class="col-lg-6 center" style="font-family: cambria">
+        {{ x.location }}
+      </h4>
+      <h4 class="col-lg-6 center" style="font-family: cambria">
+        {{ x.duration }}
+      </h4>
     </div>
-    <div class="col-lg-12 center">{{ x.description }}</div>
+    <div
+      class="col-lg-12 center"
+      style="font-size: 1.25em; font-family: cambria"
+    >
+      {{ x.description }}
+    </div>
   </div>
 </div>

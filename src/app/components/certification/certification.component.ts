@@ -30,7 +30,7 @@ export class CertificationComponent {
       year: '2022',
       title: 'International Tutor Training Program Certification',
       description:
-        'Working as a lead tutor at the Student Success center,  I have completed multiple training and tutored students in math and computer science for more than 100 hours. Based on these experiences, I earned this certification. ',
+        'Working as a lead tutor at the Student Success center,  I have completed multiple training and tutored students in math and computer science for more than 100 hours. This certification shows my qualification as a college tutor ',
     },
   ];
 }
