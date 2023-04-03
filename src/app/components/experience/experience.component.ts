@@ -30,7 +30,7 @@ export class ExperienceComponent {
       id: 5,
       title: 'Lead Tutor/Mentor',
       picture: '/assets/img/SSC.jpg',
-      duration: 'Jan 9 2023 - Present',
+      duration: 'Jan 2021 - Dec 2022',
       location: 'Student Success Center at EKU',
       description:
         "Working at the Student Success Center at Eastern Kentucky University was such a valuable experience. I acquired so many priceless skills through this job. My duties included providing tutoring for not only computer science but also all of the classes that I have taken. I was also assigned to computer science students who were academically struggling, and I provided them with weekly mentoring throughout the semester; I have brought up my mentee's GPA and overall performance by a significant amount. I also led a workshop not only for students but also for my coworkers. Each workshop had about 5-20 attendees. On top of that, I was responsible for logging/changing/reporting my coworkers' shift coverage and course coverage using Excel. This job gave me good leadership skills, communication skills, and Excel skills.",
