@@ -48,5 +48,14 @@ export class ProjectComponent {
       description:
         'This was the first prod-level web application that I made at work. Unlike my personal projects, this project had to be at the professional level, so I conducted lots of testing on it. I also had a chance to collaborate with backend developers: I got necessary end points from them and designed the web page with the provided endpoints. I also had a chance to use some angular components that my coworkers wrote. This was such a valuable experience as I learned how to better communicate and collaborate with team members to meet the goal.',
     },
+    {
+      id: 5,
+      duration: '5 Hours',
+      tools: 'Java, IntelliJ',
+      title: 'Genetic Algorithm on Traveling Salesperson Problem',
+      picture: '/assets/img/genetic.png',
+      description:
+        'The purpose of this project is to learn how genetic algorithm works. I had a chance to implement reproduction of each generation through order crossover and mutation. The image above shows the result based on 100,000th generation.',
+    },
   ];
 }
