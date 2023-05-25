@@ -61,7 +61,7 @@ export class ProjectComponent {
       id: 6,
       duration: '6 Hours',
       tools:
-        'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code, GitHub',
+        'HTML/CSS, Typescript, Angular, Bootstrap, ngx-bootstrap, Visual Studio Code, GitHub',
       title: 'Notes Application',
       picture: '/assets/img/notes.png',
       description:
