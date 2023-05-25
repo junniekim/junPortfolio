@@ -19,7 +19,7 @@ export class AwardComponent {
     {
       id: 6,
       title: "President's List",
-      year: 'Spring 2021 & 2023 Fall 2022',
+      year: 'Spring 2021 & 2023, Fall 2022',
       from: 'Eastern Kentucky University',
       description:
         'I did not settle with the dean’s list. I got on the President’s list by finishing a semester with a perfect GPA. These achievements are representations of my work ethic and effort, and I am proud to earn such achievements.',
