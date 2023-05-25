@@ -57,5 +57,15 @@ export class ProjectComponent {
       description:
         'The purpose of this project is to learn how genetic algorithm works. I had a chance to implement reproduction of each generation through order crossover and mutation. The image above shows the result based on 100,000th generation.',
     },
+    {
+      id: 6,
+      duration: '6 Hours',
+      tools:
+        'HTML/CSS, Typescript, Angular, Bootstrap, Visual Studio Code, GitHub',
+      title: 'Notes Application',
+      picture: '/assets/img/notes.png',
+      description:
+        'The purpose of this project was to solidify my basic angular skills. The app allows  users to create task/reminder notes. If it is a task, user may mark it either complete/incomplete. Completed tasks are crossed out.',
+    },
   ];
 }
