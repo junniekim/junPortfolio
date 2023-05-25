@@ -9,21 +9,30 @@ import { Award } from 'src/app/model/award-model';
 export class AwardComponent {
   awards: Array<Award> = [
     {
-      id: 1,
-      title: "Dean's List",
-      year: 'Fall 2020, Fall 2021, Spring 2022',
-      from: 'Eastern Kentucky University',
+      id: 7,
+      title: 'KSEA Undergraduate Scholarship',
+      year: 'Spring 2023',
+      from: 'Korean-American Scientists Engineers Association',
       description:
-        "I got on the Dean's list three times for academic excellence. To be on the Dean’s list, one must successfully finish a semester with at least a 3.75 or higher GPA. They are reflections of the hard work and dedication that I put into my education, and I am very proud of these achievements. Good grades also indicate that I will possess a full value of a computer science degree once I graduate.",
+        'The KSEA evauated not only my acedemic achievements but also my potential as a future leader. I was recognized among the pool of talented individuals for my academic excellence and leadership.',
     },
     {
       id: 6,
       title: "President's List",
-      year: 'Spring 2021, Fall 2022',
+      year: 'Spring 2021 & 2023 Fall 2022',
       from: 'Eastern Kentucky University',
       description:
         'I did not settle with the dean’s list. I got on the President’s list by finishing a semester with a perfect GPA. These achievements are representations of my work ethic and effort, and I am proud to earn such achievements.',
     },
+    {
+      id: 1,
+      title: "Dean's List",
+      year: 'Fall 2020 & 2021, Spring 2022',
+      from: 'Eastern Kentucky University',
+      description:
+        "I got on the Dean's list three times for academic excellence. To be on the Dean’s list, one must successfully finish a semester with at least a 3.75 or higher GPA. They are reflections of the hard work and dedication that I put into my education, and I am very proud of these achievements. Good grades also indicate that I will possess a full value of a computer science degree once I graduate.",
+    },
+
     {
       id: 2,
       year: '2021 Fall - Present',
