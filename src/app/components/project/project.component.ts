@@ -67,5 +67,14 @@ export class ProjectComponent {
       description:
         'The purpose of this project was to solidify my basic angular skills. The app allows  users to create task/reminder notes. If it is a task, user may mark it either complete/incomplete. Completed tasks are crossed out.',
     },
+    {
+      id: 7,
+      duration: '4 Hours',
+      tools: 'HTML/CSS, Javascript, Bootstrap, Visual Studio Code, GitHub',
+      title: 'Classic Hangman',
+      picture: '/assets/img/snapshot.PNG',
+      description:
+        "This was a small project I decided to make since the video game server was down. It's a classic hangman game that allows users to play hard/easy mode, ask for a hint, and cheat.",
+    },
   ];
 }
