@@ -13,3 +13,8 @@ img.center {
 p {
   text-indent: 30px;
 }
+.panel {
+  box-shadow: 10px 10px 30px rgb(218, 218, 218);
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
