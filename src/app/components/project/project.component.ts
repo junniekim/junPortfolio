@@ -71,10 +71,10 @@ export class ProjectComponent {
       id: 7,
       duration: '4 Hours',
       tools: 'HTML/CSS, Javascript, Bootstrap, Visual Studio Code, GitHub',
-      title: 'Classic Hangman',
+      title: 'Javascript Gamepack',
       picture: '/assets/img/snapshot.PNG',
       description:
-        "This was a small project I decided to make since the video game server was down. It's a classic hangman game that allows users to play hard/easy mode, ask for a hint, and cheat.",
+        'This project allows users to play a classic hangman game, memory game, and tic-tac-toe. Each game has different features such as easy/hard mode, small hints, cheating mode.',
     },
   ];
 }
