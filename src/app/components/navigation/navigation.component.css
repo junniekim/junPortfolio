@@ -1,4 +1,5 @@
 .option:hover {
   position: relative;
-  top: -2px;
+  /* top: -2px; */
+  background-color: Gainsboro;
 }
