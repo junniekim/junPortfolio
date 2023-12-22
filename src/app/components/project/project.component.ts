@@ -13,7 +13,7 @@ export class ProjectComponent {
       title: "Sijun Kim's E-Portfolio",
       picture: '/assets/img/websiteShowCase.PNG',
       tools: 'Angular, Bootstrap, VS Code, Git',
-      link: 'https://www.sijunkim.net/',
+      link: '',
       duration: '13 Hours',
       description:
         'The purpose of this project is to create an online portfolio, so I have a place to virtually keep track of my progress and achievements in my career. My resume and contacts can be found on this web application. Completing this project, I got a lot more comfortable with creating basic Angular applications, and I can install necessary extensions as needed on Visual Studio. I also had a chance to implement a third-party service on the “Contact Me” page. This website is actively being updated everytime I earn a new achievement. ',
@@ -41,7 +41,7 @@ export class ProjectComponent {
     {
       id: 4,
       duration: '5 Hours',
-      link: 'N/A',
+      link: '',
       tools: 'Java',
       title: 'Genetic Algorithm on Traveling Salesperson Problem',
       picture: '/assets/img/genetic.png',
