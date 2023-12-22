@@ -5,4 +5,5 @@ export interface Project {
   description: string;
   tools: string;
   duration: string;
+  link: string;
 }

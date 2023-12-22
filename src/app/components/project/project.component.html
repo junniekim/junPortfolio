@@ -12,7 +12,13 @@
     </div>
 
     <div class="col-lg-12 center" style="font-family: cambria">
-      <h4 class="center" style="font-weight: bold">Project Summary</h4>
+      <a
+        *ngIf="i != 3"
+        style="font-weight: bold; font-size: 20px"
+        href="{{ x.link }}"
+        >Click to check out!</a
+      >
+
       <div style="font-size: 1.25em">{{ x.description }}</div>
     </div>
     <div
